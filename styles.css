@@ -1,0 +1,184 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.section-one {
+  background-color: #1f2937;
+  height: 450px;
+}
+
+.header {
+  color: #f9faf8;
+  font-size: 18px;
+  display: inline-flex;
+  margin-left: 120px;
+  margin-top: 14px;
+}
+
+.nav-bar {
+  display: inline-flex;
+  margin-left: 600px;
+  bottom: 40px;
+  position: relative;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.main-text {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: extra-bold;
+  margin-left: 120px;
+  margin-top: 40px;
+}
+
+.secondary-text {
+  color: #e5e7eb;
+  font-weight: lighter;
+  font-size: 18px;
+  margin-left: 120px;
+  white-space: pre-wrap;
+  width: 350px;
+}
+
+.img-placeholder {
+  background-color: #6d747d;
+  position: relative;
+  height: 200px;
+  width: 400px;
+  margin-left: 700px;
+  bottom: 200px;
+}
+
+.img-placeholder p {
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 80px;
+}
+
+.btn-one {
+  background-color: #3882f6;
+  color: #f9faf8;
+  position: relative;
+  top: 5px;
+  left: 120px;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  width: 110px;
+}
+
+.btn-one:hover {
+  background-color: lightblue;
+  color: #1f2937;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 15px;
+}
+
+.section-two {
+  height: 450px;
+}
+
+.section-two h2 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  top: 30px;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box {
+  position: relative;
+  top: 50px;
+  width: 110px;
+  height: 110px;
+  margin: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: #3882f6 solid;
+}
+
+.box p {
+  text-align: center;
+  position: relative;
+  top: 120px;
+}
+
+.section-three {
+  background-color: #e5e7eb;
+  height: 400px;
+}
+
+.section-three i {
+  position: relative;
+  font-size: 36px;
+  color: #1f2937;
+  top: 80px;
+  left: 10px;
+}
+
+.section-three p {
+  font-weight: bolder;
+  position: relative;
+  left: 800px;
+  top: 150px;
+}
+
+.section-four {
+  height: 400px;
+}
+
+.footer {
+  background-color: #3882f6;
+  color: white;
+  width: 60%;
+  height: 130px;
+  position: relative;
+  left: 220px;
+  top: 120px;
+  border-radius: 8px;
+}
+
+.footer h4 {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.footer p {
+  padding: 10px;
+}
+
+.btn-two {
+  position: relative;
+  color: white;
+  left: 600px;
+  background-color: #3882f6;
+  border: white solid;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.btn-two:hover {
+  background-color: white;
+  color: #3882f6;
+}
